@@ -1,0 +1,19 @@
+{
+    "name": "nodejs_tutorial_server",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "description": "NodeJS Tutorial Server",
+    "author": {
+        "name": "Josh"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.16.3",
+        "jsonwebtoken": "^8.5.1",
+        "mysql": "^2.18.1",
+        "uuid": "^3.2.1"
+    }
+}
